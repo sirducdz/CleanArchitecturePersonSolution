@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34302.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AB44156A-6FD1-496B-87FB-080608C415D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F55E6204-F0B4-45AD-AA5B-54AB9E8D48DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{184B2CBA-9D56-404B-9EB3-98F728C82AAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{588E4209-36A2-4F72-8E9B-059F80038BDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C165F166-2EAA-4796-B5D4-BBB5BBB53540}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleManager.Domain", "PeopleManager.Domain\PeopleManager.Domain.csproj", "{26AC412A-9397-4DF6-A8C9-6216666A80D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleManager.Application", "PeopleManager.Application\PeopleManager.Application.csproj", "{F1B7CC01-E1A6-4669-8946-B5D477EC9EC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleManager.Infrastructure", "PeopleManager.Infrastructure\PeopleManager.Infrastructure.csproj", "{98599A14-9CB2-48D9-B106-F21E908829E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleManager.WebAPI", "PeopleManager.WebAPI\PeopleManager.WebAPI.csproj", "{6E27A7D8-5165-4BB2-9476-65B750371D23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26AC412A-9397-4DF6-A8C9-6216666A80D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26AC412A-9397-4DF6-A8C9-6216666A80D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26AC412A-9397-4DF6-A8C9-6216666A80D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26AC412A-9397-4DF6-A8C9-6216666A80D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1B7CC01-E1A6-4669-8946-B5D477EC9EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B7CC01-E1A6-4669-8946-B5D477EC9EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B7CC01-E1A6-4669-8946-B5D477EC9EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B7CC01-E1A6-4669-8946-B5D477EC9EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98599A14-9CB2-48D9-B106-F21E908829E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98599A14-9CB2-48D9-B106-F21E908829E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98599A14-9CB2-48D9-B106-F21E908829E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98599A14-9CB2-48D9-B106-F21E908829E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E27A7D8-5165-4BB2-9476-65B750371D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E27A7D8-5165-4BB2-9476-65B750371D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E27A7D8-5165-4BB2-9476-65B750371D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E27A7D8-5165-4BB2-9476-65B750371D23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F55E6204-F0B4-45AD-AA5B-54AB9E8D48DB} = {AB44156A-6FD1-496B-87FB-080608C415D8}
+		{184B2CBA-9D56-404B-9EB3-98F728C82AAC} = {AB44156A-6FD1-496B-87FB-080608C415D8}
+		{588E4209-36A2-4F72-8E9B-059F80038BDC} = {AB44156A-6FD1-496B-87FB-080608C415D8}
+		{C165F166-2EAA-4796-B5D4-BBB5BBB53540} = {AB44156A-6FD1-496B-87FB-080608C415D8}
+		{26AC412A-9397-4DF6-A8C9-6216666A80D1} = {F55E6204-F0B4-45AD-AA5B-54AB9E8D48DB}
+		{F1B7CC01-E1A6-4669-8946-B5D477EC9EC2} = {184B2CBA-9D56-404B-9EB3-98F728C82AAC}
+		{98599A14-9CB2-48D9-B106-F21E908829E6} = {588E4209-36A2-4F72-8E9B-059F80038BDC}
+		{6E27A7D8-5165-4BB2-9476-65B750371D23} = {C165F166-2EAA-4796-B5D4-BBB5BBB53540}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BE122B6-72F8-4780-ADC2-338CEDE641BA}
+	EndGlobalSection
+EndGlobal
